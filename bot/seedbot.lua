@@ -219,7 +219,6 @@ function create_config( )
     "arabic_lock",
     "set",
     "get",
-    "chat_bot",
     "broadcast",
     "download_media",
     "invite",
