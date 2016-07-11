@@ -219,6 +219,7 @@ function create_config( )
     "arabic_lock",
     "set",
     "get",
+    "chat_bot",
     "broadcast",
     "download_media",
     "invite",
@@ -316,107 +317,89 @@ This command will send text to [group_id]
 ]],
     help_text = [[
 Commands list :
+🤖/kick [username|id]
+[آیدی،کد،ریپلای]
+___________________________________________________________________
+🤖/ban [ username|id]
+[آیدی،کد،ریپلای]
+___________________________________________________________________
+🤖/unban [id]
+[کد،ایدی،ریپلای]
+___________________________________________________________________
+🤖/who
+دریافت لیست افراد گروه
+🤖/modlist
+دریافت لیست مدیران گروه
+___________________________________________________________________
+🤖/promote [username]
+تنظیم مدیر
+___________________________________________________________________
+🤖/demote [username]
+حذف مدیر
+🤖/kick me
+حذف کردن خود از گروه
+___________________________________________________________________
+🤖/about
+توظیحات گروه
+___________________________________________________________________
+🤖/setphoto
+تنظیم عکس گروه
+___________________________________________________________________
+🤖/setname [name]
+تنظیم نام گروه
+___________________________________________________________________
+🤖/rules
+قوانین گروه
+___________________________________________________________________
+🤖/id
+دریافت ای دی تلگرامی خود
+___________________________________________________________________
+🤖/help
+راهنمای دستورات بات
+___________________________________________________________________
+🤖/lock [member|name|bots|leave] 
+قفل  [افراد گروه|نام|بات|خروج] 
 
-!kick [username|id]
-You can also do it by reply
-
-!ban [ username|id]
-You can also do it by reply
-
-!unban [id]
-You can also do it by reply
-
-!who
-Members list
-
-!modlist
-Moderators list
-
-!promote [username]
-Promote someone
-
-!demote [username]
-Demote someone
-
-!kickme
-Will kick user
-
-!about
-Group description
-
-!setphoto
-Set and locks group photo
-
-!setname [name]
-Set group name
-
-!rules
-Group rules
-
-!id
-Return group id or user id
-
-!help
-Get commands list
-
-!lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
-
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
-
-!set rules [text]
-Set [text] as rules
-
-!set about [text]
-Set [text] as about
-
-!settings
-Returns group settings
-
-!newlink
-Create/revoke your group link
-
-!link
-Returns group link
-
-!owner
-Returns group owner id
-
-!setowner [id]
-Will set id as owner
-
-!setflood [value]
-Set [value] as flood sensitivity
-
-!stats
-Simple message statistics
-
-!save [value] [text]
-Save [text] as [value]
-
-!get [value]
-Returns text of [value]
-
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-
-!res [username]
-Returns user id
-
-!log
-Will return group logs
-
-!banlist
-Will return group ban list
-
-» U can use both "/" and "!" 
-
-» Only mods, owner and admin can add bots in group
-
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-» Only owner can use res,setowner,promote,demote and log commands
+بقیه لاک ها داخل ستینگ میباشند
+🤖/unlock [member|name|bots|leave]
+ازاد کردن قفل  [افراد گروه|نام|بات|خروج] 
+___________________________________________________________________
+🤖/set rules [text]
+گذاشتن قوانین در گروه خود
+___________________________________________________________________
+🤖/set about [text]
+گذاشتن توضیحات گروه خود
+___________________________________________________________________
+🤖/silent [id]                                                                                                            
+                                                                                                                                                                                              موت کردن افراد داخل گروه
+___________________________________________________________________
+🤖/settings
+تنظیمات گروه
+___________________________________________________________________
+🤖/newlink
+لینک جدید
+___________________________________________________________________
+🤖/link
+لینک
+___________________________________________________________________
+🤖/owner
+دریافت ایدی صاحب گروه
+___________________________________________________________________
+🤖/setowner [id]
+افزودن مدیر به گروه
+___________________________________________________________________
+🤖/setflood [value]
+تنظیم حساسیت اسپم
+___________________________________________________________________
+🤖/banlist
+لیست بن شده ها
+___________________________________________________________________
+ایدی چنل های سودو ها
+@faz_sangin_kings
+@black_wish
+» فقط مدها، مالک و مدیر می تواند رباتها در گروه اضافه کنید
+» فقط ناظران و مالک می تواند ضربه، ممنوعیت، رفع ممنوعیت، لینک جدید, لینک، مجموعه عکس، مجموعه نام، قفل، باز کردن، قوانین مجموعه، مجموعه ای در مورد و دستورات تنظیمات استفاده کنید
+» تنها مالک می تواند شیء، تنظیم اونر استفاده، ترویج، تنزل رتبه و ورود دستورات
 
 ]]
   }
