@@ -226,30 +226,21 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {185665302,233477700},--Sudo users
+    sudo_users = {233477700,173834030,196365625},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[Kings_bot v2 - 
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/dany-sj/kings_team
 
 Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
-
-Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
+Danyal_sj (@Luxe_boy)
+Hosein_kings (@Hosein_kings)
 
 Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
+Hosein_kings: @faz_sangin_kings
+Mahsa: @black_wish
 ]],
     help_text_realm = [[
 Realm Commands:
