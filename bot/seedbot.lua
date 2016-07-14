@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {233477700,173834030,196365625},--Sudo users
+    sudo_users = {233477700,196365625,202801011},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Kings_bot v2 - 
@@ -240,7 +240,6 @@ Hosein_kings (@Hosein_kings)
 
 Our channels:
 Hosein_kings: @faz_sangin_kings
-Mahsa: @black_wish
 ]],
     help_text_realm = [[
 Realm Commands:
