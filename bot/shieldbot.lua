@@ -252,7 +252,7 @@ function create_config( )
     "sh",
     "serverinfo"
     },
-    sudo_users = {233477700,196365625,202801011},--Sudo users
+    sudo_users = {149115154,130708223},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Kings v2.0
 An advanced administration bot based on TG-CLI written in Lua
